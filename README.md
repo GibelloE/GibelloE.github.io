@@ -7,5 +7,5 @@
  - una vez confirmado el turno posibilidad de migrar a google calendar 
 
 
-# Para ver la pagina web el link es: 
+# Para ver la herramienta funcionando el link es: 
 https://gibelloe.github.io/
