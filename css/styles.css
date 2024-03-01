@@ -47,6 +47,8 @@ th {
     cursor: pointer;
 }
 
+/* boton volver */ 
+
 .back {
     text-align: center;
     size:50px;
@@ -54,11 +56,16 @@ th {
 }
 .back a {
     text-decoration:none;
-	background-color:#666;
+	background-color:black;
 	padding:10px;
 	color:white;
 	border-radius:20px;
 	}
+
+.back a:hover {
+	background-color: orange;
+    transition: background-color 0.3s ease;
+}
 
 /* Agrega estilos para el hover de las celdas vacías */
 td.hour-block {
