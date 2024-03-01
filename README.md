@@ -1,6 +1,7 @@
-# canchita-prueba
+# Canchita
  /version 0.1 1/3/2024/
- 
+
+Desarrollado en vanilla js
 
 La idea principal de la herramienta es poder sacar turnos una vez hecho un pago parcial o total del servicio prestado, yo lo hice pensando en las canchas de futbol sintetico donde se reserva por whatsapp y no se sabe bien si hay turnos disponibles o no. 
 
