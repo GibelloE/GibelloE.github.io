@@ -13,6 +13,6 @@ La idea principal de la herramienta es poder sacar turnos una vez hecho un pago 
  - base de datos que guarde la informacion y al refrescar la pagina se conserve y se puedan ver que turnos ya fueron tomados por otros usuarios (implementar autorefresh para evitar sobre turnos)
  - panel para el encargado de administrar el servicio para ver como viene el dia, si tiene alguna vacante, etc, posibilidad de extraer a excel, .txt, etc segun conveniencia.
  - api de google calendar: una vez confirmado el turno posibilidad de migrar a google calendar en caso que el mail sea gmail
- - actualmente la pagina no es responsive 
+ - actualmente la pagina no es responsive porque mi prioridad es terminar las funcionalidades basicas
 
 
