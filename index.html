@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario de turnos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calendar">
+        <h1>Calendario de turnos</h1>
+        <table id="calendar-table">
+            <!-- Aquí se insertará la tabla del calendario -->
+        </table>
+    </div>
+
+    <div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2 id="popup-title">Reservar turno</h2>
+        <form id="reservation-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+			<label for="name">Email:</label>
+            <input type="text" id="email" email="Email" required>
+            <button type="submit">Reservar</button>
+        </form>
+        <a href="https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=ID_DE_TU_PREFERENCIA_DE_PAGO" target="_blank"><img src="mp.png" style="width: 50%; height:50%;padding:10px;">
+		<h3>Pagá una seña ($1000) con mercadopago para confirmar la reserva</h3>
+		</a>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
