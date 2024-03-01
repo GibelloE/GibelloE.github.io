@@ -2,7 +2,13 @@
     margin: 20px auto;
     width: 80%;
 }
+.superior-bar  {
+	display:flex;
+	}
 
+.superior-bar h1 {
+	width:400px;
+	}
 table {
     width: 100%;
     border-collapse: collapse;
