@@ -2,7 +2,7 @@ let selectedCell; // Variable para almacenar la celda seleccionada
 
 document.addEventListener("DOMContentLoaded", function() {
     updateCalendar();
-    setInterval(updateCalendar, 60000); // Actualizar cada minuto
+    setInterval(updateCalendar, 60000); 
 });
 
 function updateCalendar() {
