@@ -47,6 +47,19 @@ th {
     cursor: pointer;
 }
 
+.back {
+    text-align: center;
+    size:50px;
+	text-decoration:none;
+}
+.back a {
+    text-decoration:none;
+	background-color:#666;
+	padding:10px;
+	color:white;
+	border-radius:20px;
+	}
+
 /* Agrega estilos para el hover de las celdas vacías */
 td.hour-block {
     cursor: pointer;
