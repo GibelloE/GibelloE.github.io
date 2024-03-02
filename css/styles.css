@@ -5,11 +5,11 @@
 .superior-bar  {
 	display:flex;
 	flex-direction: row;
-	text-align: justify;
+	
 	}
 
 .superior-bar h1 {
-	width:400px;
+	width:25%;
 	}
 table {
     width: 100%;
