@@ -4,6 +4,8 @@
 }
 .superior-bar  {
 	display:flex;
+	flex-direction: row;
+	text-align: justify;
 	}
 
 .superior-bar h1 {
@@ -81,4 +83,11 @@ td.hour-block {
 td.hour-block:hover {
     background-color: #ccc;
     transition: background-color 0.3s ease;
+}
+
+/* Media Querys */
+@media screen and (max-width: 800px) {
+    #calendar-table {
+        flex-direction: column; 
+    }
 }
