@@ -87,7 +87,7 @@ td.hour-block:hover {
 
 /* Media Querys */
 @media screen and (max-width: 800px) {
-    #calendar-table {
+    .superior-bar {
         flex-direction: column; 
     }
 }
